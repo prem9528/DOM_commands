@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM commands </title>
+    <link rel="stylesheet" href="./style.css" class="stylesheet">
+</head>
+
+<body>
+    <header class="header" id="main-header">
+        <div class="container1">
+            <div class="heading">
+                <hi id="header-title">Items List</hi>
+            </div>
+            <div class="filter">
+                <input type="text" class="filer-items" id="filter-items" placeholder="Filter items...">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="main" class="card-body">
+            <p class="title">Add your Items here</p>
+            <form id="addform" class="form">
+                <input type="text" class="form-control" id="item">
+                <input type="submit" class="button-submit" value="Submit">
+            </form>
+            <h2 class="title">Items</h2>
+            <ul id="items" class="list-group">
+                <li class="list-group-item">item 1 <button class="button delete">X</button></li>
+                <li class="list-group-item">item 2 <button class="button delete">X</button></li>
+                <li class="list-group-item">item 3 <button class="button delete">X</button></li>
+                <li class="list-group-item">item 4 <button class="button delete">X</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
